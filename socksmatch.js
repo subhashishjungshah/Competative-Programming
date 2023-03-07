@@ -9,7 +9,6 @@ function sockMerchant(n, ar) {
       demArr[element] = 1;
     }
   });
-  console.log(demArr);
   for (let num in demArr) {
     if (demArr[num] % 2 !== 0) {
       unpairs++;
